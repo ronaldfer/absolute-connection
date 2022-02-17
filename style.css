@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  img {
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    padding: 5px; 
+    width: 100%;
+  }
+  
+  
+  
