@@ -1,18 +1,37 @@
-body {
-    background-color: white;
+  .newspaper {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
   }
-  
-  h1 {
-    color: white;
-    text-align: center;
+
+  div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  * {
+    box-sizing: border-box;
+  }
+  /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
   
   p {
     font-family: verdana;
     font-size: 20px;
   }
 
-  img {
+  .img {
     border: 0px solid #ddd;
     border-radius: 4px;
     padding: 5px; 
