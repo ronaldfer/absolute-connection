@@ -54,7 +54,16 @@ div {
 
   .center {
     display: block;
+    margin-top:unset;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
   }
+
+  footer {
+    position: relative; 
+    margin-top: -150px; 
+    height: 150px; 
+    clear: both;
+   }
+}
