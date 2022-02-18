@@ -1,14 +1,4 @@
-  .newspaper {
-    column-count: 3;
-    column-gap: 40px;
-    column-rule-style: solid;
-  }
-
-  div {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
-  * {
+ * {
     box-sizing: border-box;
   }
   /* Create three equal columns that floats next to each other */
@@ -26,9 +16,19 @@
   clear: both;
 }
   
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+}
+
+div {
+  font-family: Open Sans",Helvetica,Arial,sans-serif";
+}
+
   p {
-    font-family: verdana;
-    font-size: 20px;
+    font-family: Open Sans",Helvetica,Arial,sans-serif";
+    font-size: 16px;
   }
 
   .img {
