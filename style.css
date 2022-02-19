@@ -60,10 +60,56 @@ div {
     width: 25%;
   }
 
-  footer {
-    position: relative; 
-    margin-top: -150px; 
-    height: 150px; 
-    clear: both;
-   }
+
+#pageFooter div {
+  float:left;
+  padding-bottom: 1em;
+  padding-right: 2em;
+
 }
+
+#pageFooter div:first-child {
+  margin-left: 128px;
+}
+
+#pageFooter div h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: #3c6b92;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+#pageFooter div h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  color:#666;
+  margin-bottom: 1em;
+}
+
+#pageFooter div p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #3c6b92;
+  margin-bottom: 1em;
+}
+
+#pageFooter div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#pageFooter div li {
+  margin-bottom: 1em;
+}
+
+#pageFooter div li a:link, #pageFooter div li a:visited {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color:#666;
+ 
+}
+
