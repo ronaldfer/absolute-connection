@@ -38,7 +38,12 @@ div {
     width: 100%;
     
   }
-  
+
+  .h1-image img {
+    height:auto
+    width: auto;
+}
+
   label {
     display: inline-block; width: 5em;
   }
