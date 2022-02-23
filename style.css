@@ -138,15 +138,6 @@ div {
   position: relative;
 }
 
-.paragraph {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  padding-left: 20%;
-  padding-right:20%;
-  padding-top: 4%;
-  padding-bottom:5%;
-  
-}
 
 a:visited { color: #93291b; text-decoration: none; }
 
